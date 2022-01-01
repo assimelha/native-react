@@ -1,13 +1,9 @@
-import React from 'react'
+import React from "react";
 
-import { useMyHook } from '@native/react'
+import { useNative } from "@native/react";
 
 const App = () => {
-  const example = useMyHook()
-  return (
-    <div>
-      {example}
-    </div>
-  )
-}
-export default App
+  useNative("some_token", "some_user_id");
+  return <div>{example}</div>;
+};
+export default App;
