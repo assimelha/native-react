@@ -1,6 +1,6 @@
 {
   "name": "@usenative/react",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "author": "assimelha",
   "license": "MIT",
@@ -9,6 +9,9 @@
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "jsnext:main": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
   "engines": {
     "node": ">=8",
     "npm": ">=5"
