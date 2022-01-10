@@ -19,7 +19,7 @@ import { useNative } from "@native/react";
 
 const App = () => {
   useNative({ token: "some_token", userId: "some_user_id" });
-  return <div>{example}</div>;
+  return <div>hello</div>;
 };
 export default App;
 ```
