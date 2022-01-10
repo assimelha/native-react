@@ -4,7 +4,7 @@
   "description": "",
   "author": "assimelha",
   "license": "MIT",
-  "repository": "usenative/native-react",
+  "repository": "usenative/react",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
